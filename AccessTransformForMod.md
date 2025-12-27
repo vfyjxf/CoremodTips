@@ -1,7 +1,7 @@
 # Apply AT to Mod
 
 ForgeGradle7的重构为Forge的AT提供了一个独立的gradle plugin，并且它的实现基于ArtifactTransform，因此几乎所有的Artifact都能被它所处理。
-如果你需要修改mod里的权限修饰符来避免在mixin里使用反射灯操作，你可以按照以下步骤操作。
+如果你需要修改mod里的权限修饰符来避免在mixin里使用反射等操作，你可以按照以下步骤操作。
 
 1. 将Gradle Plugin Portal加入plugin的repo里
 
